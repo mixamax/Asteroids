@@ -1,0 +1,29 @@
+.header-container {
+    display: flex;
+    width: 100%;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+.header-logo {
+    /* display: inline-block; */
+    color: #f86600;
+    font-family: Passion One;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.header-text {
+    /* display: inline-block; */
+    color: #fff;
+    /* Mobile/Сontrol Regular */
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    white-space: pre;
+}

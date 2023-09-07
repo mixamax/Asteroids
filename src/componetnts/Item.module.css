@@ -1,0 +1,102 @@
+.item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+.item-date {
+    color: #fff;
+    /* Desktop/H2 */
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+}
+
+.item-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+.item-distance {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.item-distance_text {
+    color: #fff;
+    text-align: center;
+    /* Desktop/Body Regular */
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+.item-asterimage {
+    width: 22px;
+    height: 24px;
+    flex-shrink: 0;
+}
+.item-name-diametr {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.item-name {
+    color: #fff;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+.item-diametr {
+    color: #fff;
+    /* Desktop/Body Micro */
+    font-family: Helvetica;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 133.333% */
+}
+.item-orderbtn-danger {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+.item-danger {
+    color: #e3e5e5;
+    /* Desktop/Body Small */
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}
+.item-orderbtn {
+    border: none;
+    display: flex;
+    padding: 2px 11px;
+    align-items: center;
+    gap: 2px;
+    border-radius: 16px;
+    background: rgba(248, 102, 0, 0.15);
+    color: #f86600;
+    font-family: Helvetica;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 181.818% */
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.item-orderbtn:hover {
+    color: #fff;
+    background-color: #f86600;
+}

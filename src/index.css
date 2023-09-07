@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", "Passion One", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+@font-face {
+    font-family: "Passion One";
+    src: local("Passion One"),
+        url("../src/fonts/Passion_One/PassionOne-Regular.ttf");
+}
+/* @font-face {
+    font-family: "Lato-medium";
+    src: local("Lato-medium"),
+        url("../../../fonts/Lato/Lato-Regular.ttf") format("truetype");
+    font-weight: normal;
+} */

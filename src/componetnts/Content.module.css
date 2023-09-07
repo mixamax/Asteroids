@@ -1,0 +1,180 @@
+.content {
+    position: relative;
+    display: flex;
+}
+.img-zemlia {
+    position: sticky;
+    left: 0;
+    top: 124px;
+    margin-right: 3%;
+    max-width: 400px;
+    max-height: 620px;
+    min-height: 436px;
+}
+@media (max-width: 1025px) {
+    .img-zemlia {
+        max-height: 436px;
+    }
+}
+.list-wrapper {
+    position: relative;
+    display: flex;
+    width: 402px;
+}
+.asteroids-list {
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+@media (max-width: 890px) {
+    .list-wrapper {
+        min-width: 350px;
+        transform: translateX(-133px);
+    }
+    .img-zemlia,
+    .cart {
+        transform: translateX(-133px);
+    }
+}
+@media (max-width: 670px) {
+    .list-wrapper {
+        min-width: 320px;
+        transform: translateX(-233px);
+    }
+    .img-zemlia,
+    .cart {
+        transform: translateX(-233px);
+    }
+}
+@media (max-width: 550px) {
+    .list-wrapper {
+        min-width: 279px;
+    }
+}
+@media (min-width: 510px) {
+    .cart {
+        box-sizing: border-box;
+        position: sticky;
+        left: 0px;
+        top: 124px;
+        box-sizing: border-box;
+        display: flex;
+        width: 150px;
+        padding: 16px;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+        row-gap: 32px;
+        flex-wrap: wrap;
+        border-radius: 24px;
+        background: #232526;
+        height: fit-content;
+        margin-right: 80px;
+    }
+}
+@media (max-width: 510px) {
+    .cart {
+        display: flex;
+        width: 100%;
+        padding: 16px;
+        justify-content: space-between;
+        /* position: sticky; */
+        position: fixed;
+        background: #232526;
+        /* top: 100vh; */
+        bottom: 0;
+        transform: translateX(0);
+        z-index: 1;
+        box-sizing: border-box;
+    }
+    .list-wrapper {
+        width: calc(100% - 48px);
+        display: flex;
+        min-width: calc(100% - 48px);
+        justify-content: space-around;
+    }
+    .img-zemlia {
+        margin-right: 0;
+    }
+    .asteroids-list {
+        width: 300px;
+        margin: 0 24px;
+    }
+}
+.cart-text {
+    display: flex;
+    flex-direction: column;
+}
+.cart-title {
+    color: #fff;
+    /* Desktop/H3 */
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+.cart-value {
+    color: #fff;
+    /* Desktop/Body Regular */
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    white-space: pre-wrap;
+}
+.cart-btn {
+    display: flex;
+    height: 48px;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 40px;
+    background: #f86600;
+    color: #fff;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+.list-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+.list-title {
+    color: #fff;
+    /* Desktop/H1 Small */
+    font-family: Helvetica;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    align-self: stretch;
+    margin: 0;
+}
+.unit {
+    color: #fff;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+.unit-active {
+    text-decoration-line: none;
+    font-weight: 700;
+}
+.measure-unit {
+    display: inline-flex;
+    gap: 5px;
+}
