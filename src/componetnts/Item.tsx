@@ -64,7 +64,7 @@ export const Item: React.FC<TProps> = ({
                 </div>
                 <img
                     className={styles["item-asterimage"]}
-                    src="/images/aster.png"
+                    src="images/aster.png"
                     alt="астероид"
                 />
                 <div className={styles["item-name-diametr"]}>
