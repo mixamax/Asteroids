@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/github.io/Asteroids/static/css/main.1cd2687f.css",
-    "main.js": "/github.io/Asteroids/static/js/main.4ba76a39.js",
-    "static/media/PassionOne-Regular.ttf": "/github.io/Asteroids/static/media/PassionOne-Regular.9c9b8a782e5c499ad7cb.ttf",
-    "index.html": "/github.io/Asteroids/index.html",
-    "static/media/distArrow.svg": "/github.io/Asteroids/static/media/distArrow.2f070187c53bff8fd52ae78da14c15d4.svg",
-    "main.1cd2687f.css.map": "/github.io/Asteroids/static/css/main.1cd2687f.css.map",
-    "main.4ba76a39.js.map": "/github.io/Asteroids/static/js/main.4ba76a39.js.map"
+    "main.css": "./static/css/main.40cd49c6.css",
+    "main.js": "./static/js/main.ab6cf822.js",
+    "static/media/PassionOne-Regular.ttf": "./static/media/PassionOne-Regular.9c9b8a782e5c499ad7cb.ttf",
+    "index.html": "./index.html",
+    "static/media/distArrow.svg": "./static/media/distArrow.2f070187c53bff8fd52ae78da14c15d4.svg",
+    "main.40cd49c6.css.map": "./static/css/main.40cd49c6.css.map",
+    "main.ab6cf822.js.map": "./static/js/main.ab6cf822.js.map"
   },
   "entrypoints": [
-    "static/css/main.1cd2687f.css",
-    "static/js/main.4ba76a39.js"
+    "static/css/main.40cd49c6.css",
+    "static/js/main.ab6cf822.js"
   ]
 }
