@@ -1,9 +1,8 @@
-// https://mixamax/github.io/asteroids
 import React from "react";
 import styles from "./App.module.css";
 import { Header } from "./Header";
 import { Content } from "./Content";
-import { useEffect, useState, createContext, useContext } from "react";
+import { useEffect, useState, createContext } from "react";
 import { Cart } from "./Cart";
 import { query } from "./Query";
 
@@ -43,6 +42,7 @@ const App: React.FC = () => {
     const [error, setError] = useState("err");
     const arr: Asteroid[] = [];
     const [nearObjects, setNearObjects] = useState(arr);
+    const [isLoading, setIsLoading] = useState(true);
 
     const isMobileHandler = (e: any) => {
         const width = e.target.innerWidth;
@@ -90,6 +90,7 @@ const App: React.FC = () => {
                 setError(err.message);
                 console.warn(error);
             }
+            setIsLoading(false);
         })();
     }, []);
 
@@ -98,7 +99,7 @@ const App: React.FC = () => {
             <div className={styles.App}>
                 <div className={styles.mask}>{isMobile && <Cart />}</div>
                 <Header />
-                <Content isMobile={isMobile} />
+                <Content isMobile={isMobile} isLoading={isLoading} />
             </div>
         </DATAContext.Provider>
     );
